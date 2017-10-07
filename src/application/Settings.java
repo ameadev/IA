@@ -1,4 +1,7 @@
 package application;
+
+import javafx.scene.paint.Color;
+
 /*
  * content application settings
  * @APP_NAME : Application's name
@@ -11,6 +14,8 @@ public class Settings {
 	public static int W_HEIGHT = 600;
 	public static int ROBOT_DELAY = 1;
 	public static int ENV_DELAY = 1;
+	public static Color COLOR_LIST[] = {Color.ALICEBLUE, Color.BLUE, Color.AQUAMARINE, Color.AQUA,
+										Color.BEIGE, Color.BLUEVIOLET, Color.BROWN};
 	
 	public Settings()
 	{
